@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ec.edu.espol.controller.AceptarOfertaFXMLController">
+   <children>
+      <TextField fx:id="placas" layoutX="67.0" layoutY="83.0" prefHeight="25.0" prefWidth="108.0" />
+      <Text layoutX="27.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrese Placa del Vehiculo a buscar:" />
+      <Button layoutX="96.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#buscarCarro" text="Buscar" />
+      <Button layoutX="90.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#regresarOpciones" text="Regresar" />
+      <VBox fx:id="cajaDeBoton" layoutX="71.0" layoutY="227.0" prefHeight="41.0" prefWidth="100.0" />
+      <ScrollPane layoutX="239.0" layoutY="47.0" prefHeight="323.0" prefWidth="337.0">
+         <content>
+            <HBox fx:id="cajaParaTexto" alignment="CENTER" prefHeight="315.0" prefWidth="332.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
