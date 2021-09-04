@@ -23,7 +23,7 @@ import javax.mail.internet.MimeMessage;
 
 /**
  *
- * @author Jose
+ * @author Leon
  */
 public class Util {
     // LOS MÉTODOS ESTATICOS SOLO FUNCIONAN EN LA CLASE, Y SE LLAMAN CON LA CLASE
